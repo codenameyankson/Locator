@@ -8,7 +8,7 @@ function onDeviceReady() {
 
 function onSuccess(position) {
   
-    document.getElementById('map').innerHTML = "<iframe src = \"https:\/\/maps.google.com\/maps?           q="+position.coords.latitude+","+position.coords.longitude+"&hl=es;z=14&amp;output=embed\" frameborder=\"0\" style=\"height:100%; width:100%\"><\/iframe>";
+    document.getElementById('map').innerHTML = "<iframe src = \"https:\/\/maps.google.com\/maps?q="+position.coords.latitude+","+position.coords.longitude+"&hl=es;z=14&amp;output=embed\" frameborder=\"0\" style=\"height:100%; width:100%\"><\/iframe>";
 
   }
     
